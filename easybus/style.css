@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dfe8eb;
+}
+
+/* Main page container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+
+    /* makes the middle stand out a little */
+    background-color: white;
+    border-radius: 10px;
+
+    /* simple shadow around the sides */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Headers */
+h1 {
+    background-color: #0a7a3d;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+h2 {
+    background-color: #1b1b7a;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Text */
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Buttons */
+button {
+    background-color: #0a7a3d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #065a2c;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #1b1b7a;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0000cc;
+}
