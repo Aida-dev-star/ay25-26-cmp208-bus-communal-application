@@ -26,6 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `accepted_requests`
 --
+ CREATE DATABASE IF NOT EXISTS easybus;
+ USE easybus;
 
 CREATE TABLE `accepted_requests` (
   `id` int(11) NOT NULL,
